@@ -21,6 +21,7 @@ LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/res \
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay
 LOCAL_AAPT_FLAGS += --extra-packages android.support.compat
+LOCAL_AAPT_FLAGS += --rename-manifest-package mx.xperience.gallery3d
 
 LOCAL_PACKAGE_NAME := Gallery2
 
