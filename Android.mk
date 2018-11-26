@@ -28,15 +28,13 @@ LOCAL_RESOURCE_DIR += $(LOCAL_PATH)/res
 
 LOCAL_USE_AAPT2 := true
 
-LOCAL_PACKAGE_NAME := Gallery2
+LOCAL_PACKAGE_NAME := SnapdragonGallery
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_CERTIFICATE := platform
 
 LOCAL_PRIVATE_PLATFORM_APIS := true
 
-LOCAL_OVERRIDES_PACKAGES := Gallery Gallery3D GalleryNew3D
-
-LOCAL_AAPT_FLAGS += --rename-manifest-package com.android.gallery3d
+LOCAL_OVERRIDES_PACKAGES := Gallery Gallery3D GalleryNew3D Gallery2
 
 LOCAL_JNI_SHARED_LIBRARIES := \
     libjni_gallery_eglfence \
